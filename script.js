@@ -1,15 +1,21 @@
 function teste() {
-    var colab = ['Adriano', 'Bruno', 'Claudemir', 'Ricardo', 'Robson', 'Silvio']
-    var funcao = ['Montador', 'Montador', 'Ajudante', 'Ajudante', 'Montador', 'Ajudante']
-    var status = ['Liberado', 'Liberado', 'Bloqueado', 'Bloqueado', 'Liberado', 'Bloqueado']
-    var isel = document.getElementById('isel')
-    var sel = String(isel.value)        
-   var dados = document.getElementById('ifuncao')
-    var cargo = funcao[colab.indexOf(sel)]
+    var mat = ['1', '2', '3', '4', '5', '6']
+    var nome = ['Adriano', 'Bruno', 'Claudemir', 'Ricardo', 'Robson', 'Silvio']
+    var setor = ['Expedição', 'Ensaque', 'Farelo', 'SESMT', 'Ensaque', 'RH']
+
+    var imat = document.getElementById('imat')
+    var colab = String(imat.value)  
+
+   var dados = document.getElementById('inome')
+    var nome_colab = nome[mat.indexOf(colab)]      
+    dados.innerText = nome_colab
+
+    var area = document.getElementById('isetor')
+    var area_colab = setor[mat.indexOf(mat)] 
+    area.innerHTML = area_colab
+
     
-    var lib = document.getElementById('iliberacao')
-    var liberacao = status[colab.indexOf(sel)]
-    dados.innerHTML = `Função: ${cargo}<br>Situação: ${liberacao}`
+    
 
         
 }

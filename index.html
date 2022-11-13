@@ -12,19 +12,19 @@
     <p id="head">Pesquisar Funcionário</p>
 
     <div id="borda">  
-        <select class="form-control form-control-sm" id="isel" onchange="teste()">
-            <option value="" selected>---selecione---</option>
-            <option value="Adriano">Adriano</option>
-            <option value="Bruno">Bruno</option>
-            <option value="Claudemir">Claudemir</option>
-            <option value="Ricardo">Ricardo</option>
-            <option value="Robson">Robson</option>
-            <option value="Silvio">Silvio</option>
-        </select>            
+        <input type="text" class="form-control form-control-sm" name="mat" id="imat" onchange="teste()">                 
         <br><br><br>
         <p id="dados"><strong>Dados do Colaborador:</strong></p>
-        <p id="ifuncao"></p>
-        <p id="iliberacao"></p>     
+        <div class="divi">
+            <label for="inome" class="clas"><strong>Nome:</strong></label>
+            <div id="inome"></div>
+        </div>
+        <div class="divi">
+            <label class="clas" for="isetor"><strong>Setor:</strong></label>
+            <p id="isetor"></p>
+        </div>
+   
+ 
     </div>
 
     
