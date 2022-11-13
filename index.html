@@ -11,8 +11,8 @@
 <body>
     <p id="head">Pesquisar Funcionário</p>
 
-    <div id="borda1">        
-        <select name="sel" id="isel">
+    <div id="borda">  
+        <select class="form-control form-control-sm" id="isel" onchange="teste()">
             <option value="" selected>---selecione---</option>
             <option value="Adriano">Adriano</option>
             <option value="Bruno">Bruno</option>
@@ -20,15 +20,9 @@
             <option value="Ricardo">Ricardo</option>
             <option value="Robson">Robson</option>
             <option value="Silvio">Silvio</option>
-        </select>
-    </div>
-
-    <div id="borda2">        
-        <button type="button" id="ibotao" class="btn btn-primary" onclick="teste()">Procurar</button>
-    </div>
-
-    <div id="borda3">
-            <p><strong>Dados do Colaborador:</strong></p>
+        </select>            
+        <br><br><br>
+        <p id="dados"><strong>Dados do Colaborador:</strong></p>
         <p id="ifuncao"></p>
         <p id="iliberacao"></p>     
     </div>

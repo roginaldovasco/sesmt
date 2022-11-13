@@ -13,24 +13,21 @@ body {
 }
 
 #borda1, #borda2{
-    border: 1px solid black;
     width: 400px;
     height: 50px;
     margin: 5px;
-    background-color: rgb(165, 167, 168);
-    border-radius: 8px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.400);
+    
     
 }
 
-#borda3 {
-    border: 1px solid black;
+#borda {
+    border: 1px solid lightgray;
     width: 400px;
-    height: 100px;
+    height: 200px;
     margin: 5px;
-    background-color: rgb(165, 167, 168);
+    background-color: white;
     border-radius: 8px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.400);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.300);
 }
 
 
@@ -39,9 +36,10 @@ body {
     font-weight: bolder;
     text-align: center;
     font-size: 14px;
-    background-color: orange;
+    background-color: rgb(255, 105, 0);
     color: white;
     height: 20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.212);
 }
 
 #sel {
@@ -56,12 +54,7 @@ body {
     border-radius: 5px;
 }
 
-#ibotao {
-    margin-top: 6px;
-    margin-left: 150px;
-    border-radius: 5px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.101);
-}
+
 
 #isel {
     border: 1px solid black;
@@ -80,6 +73,7 @@ body {
 }
 
 p {
-    margin-left: 5px;
+    margin: auto;
+    text-align: center;
     
 }
